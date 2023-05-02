@@ -3,7 +3,7 @@
     margin: 0;
 }
 .navbar{
-    background-color: rgb(214, 136, 214);
+    background-color: rgb(230, 186, 230);
     margin-bottom: 5px;
     
 }
@@ -11,7 +11,7 @@
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    justify-content: right;
+    justify-content: left;
 
 
 }
@@ -19,58 +19,86 @@
     color: black;
     margin: 10px;
 }
+.navbar li a{
+  text-decoration: none;
+  color: rgb(124, 90, 5);
+}
 .navbar h1{
-    color: yellowgreen;
+    color: rgb(191, 56, 11);
     text-align: center;
 }
- img{
+.navbar img{
     align-items: left;
     width: 80px;
     padding: 0;
     margin: 0;
-    border-radius: 30%;
+    border-radius: 50%;
+}
+ h2{
+  text-align: center;
+}
+.border{
+  width: 230px;
+  height: 5px;
+  background: #9b76eb;
+  margin: 26px auto;
+}
+h4{
+  text-align: center;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.column{
+  width: 22%;
+  padding: 10px;
+}
+.row img{
+  border-radius: 50%;
+  width: 50%;
+}
+ h3{
+  text-align: center;
+  padding: 10px;
+  color: rgb(126, 24, 221);
+  font-size: 24px;
+}
+footer{
+  background-color: rgb(167, 179, 246);
+  color: blue;
+  padding: 3px;
+  
+}
+footer h3{
+  text-align: left;
+  padding-left: 0;
+  color: black;
+}
+.icons{
+  display: flex;
+  flex-wrap: wrap;
+  
+
+}
+.icons i{
+  padding: 5px;
+  font-size: 18px;
+  text-align: left;
+  list-style: none;
+}
+.signup{
+display: flex;
+justify-content: right;
+}
+.col{
+  width: 60% 40%;
+  padding: 5px;
 }
 
-main{
-    background-color: rgb(198, 165, 227);
-    height: 500px;
-    width: 380px;
-    /* border: 3px solid red; */
-    float: left;
-    margin-right: 20px;
-    /* margin-bottom: 20px; */
-    padding-left: 25px;
-    column-count: 1;
-    justify-content: left;
-  }
-  article{
-    background-color: rgb(210, 174, 242);
-    height: 500px;
-    width: 380px;
-    float: left;
-    margin-right: 20px;
-    padding-left: 25px;
-    margin-bottom: 20px;
-    /* border: 3px solid red; */
-    column-count: 2;
-  }
-  aside{
-    /* background-color: rgb(233, 229, 236); */
-    height: 500px;
-    width: 380px;
-    padding-left: 25px;
-    column-count: 1;
-    justify-content: right;
-  }
-  .container{
-    width: 100px;
-    height: 150px;
-    background-color: aliceblue;
-    border-radius: 50%;
-    text-align: center;
-    padding: 25px 10px 0 0;
-
-  }
-  p{
-    font-size: 18px;
-  }
+.row1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
