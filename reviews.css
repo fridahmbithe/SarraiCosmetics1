@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.border{
+    width: 200px;
+    height: 5px;
+    background: #718967;
+    margin: 26px auto;
+}
